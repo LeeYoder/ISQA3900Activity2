@@ -1,8 +1,93 @@
-.nav{
+/* Navagation styling */
+nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+  	width: 100%;
+  	padding-top: 15px;
+  	padding-bottom: 15px;
     background-color: lightgrey;
-    padding: 5px;
-    display: block;
     text-align: right;
-    font-size: 18;
     font-family: 'Arial';
+}
+
+/* Header 1 styling */
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: Indigo;
+}
+
+/* Paragraph font size */
+p{
+	font-size: 20px;
+}
+
+/* Footer styling */
+footer{
+  	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	background-color: lightgrey;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+/* Image width */
+.imgMe{
+	width: 320px;
+	height: 345px;
+	border-radius: 25px;
+}
+
+.imgHob{
+	width: 320px;
+	height: 400px;
+}
+
+/* Text and Image aligned with the Image on the left */
+.leftImg{}
+
+.leftImg > img{
+	float: left;	
+}
+
+.leftSubSect{
+	float: left;
+}
+
+.leftImg > p{
+	width: 1000px;
+    padding: 25px;
+    padding-right: 325px;
+    float: right;
+}
+
+/* Text and Image aligned with the Image on the right */
+.rightImg{}
+
+.rightImg > img{
+	float: left;
+}
+
+.rightImg > p{
+	width: 1000px;
+    padding: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    float: left;
+}
+
+/* Sub text styling */
+.sub{
+	font-style: italic;
+	font-size: 12px;
+}
+
+/* Closing thoughts styling*/
+.final{
+	text-align: center;
+	clear: both;
+    padding: 25px;
 }
